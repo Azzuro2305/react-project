@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Service() {
+function Qa() {
   return (
     <>
-      Service
+      Qa
     </>
   )
 }
 
-export default Service
+export default Qa
