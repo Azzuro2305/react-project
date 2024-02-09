@@ -1,9 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-// import { Button } from 'react-bootstrap'; // Add the missing import statement
+import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import Images from './Images';
 
-function Header() {
+export function Header() {
   return (
     <>
       <div>
@@ -21,9 +20,7 @@ function Header() {
               <Link to="/">QA</Link>
               <Link to="/">FAQ</Link>
               <Link to="/">Contact Us</Link>
-              <Button>
                 <Link>Sign In</Link>
-              </Button>
           </nav>
       </div>
     </>
