@@ -7,7 +7,7 @@ function MainVisual() {
   return (
     <>
       <div className='h-800px bg-cover flex' style={{ backgroundImage: `url(${mainvisual})`}}>
-        <div className='my-auto mx-20'>
+        <div className='my-auto mx-40'>
             <h2 className='font-lato text-50px py-4 text-white font-bold'>Cleaning Service</h2>
             <p className='font-poppins text-24px py-4 text-white w-300px'>
                 We are here to serve for 
