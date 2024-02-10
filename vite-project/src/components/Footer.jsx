@@ -6,7 +6,7 @@ import Images from './Images';
 function Footer() {
   return (
     <>
-      <footer className='bottom-0 bg-black px-100px pt-10'>
+      <footer className='bg-black px-100px pt-10'>
         <div className='ml-3'>
             <img src={Images.footerLogo} alt="" />
         </div>

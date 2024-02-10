@@ -14,7 +14,7 @@ function MainVisual() {
                 whatever you need
             </p>
             <div className='flex space-x-4'>
-                <Button className='m-1' txt={"Book Now"}/>
+                <Button txt={"Book Now"}/>
                 <Button txt={"Learn More"}/>
             </div>
         </div>

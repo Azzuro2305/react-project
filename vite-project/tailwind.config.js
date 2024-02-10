@@ -52,9 +52,6 @@ export default {
         '24px': '24px',
         '50px': '50px',
       },
-      backgroundImage: {
-        'main-visual': './images/backgroundBg.png',
-      },
       height: {
         '800px': '800px',
       }
