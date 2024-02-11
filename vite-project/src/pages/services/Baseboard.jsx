@@ -2,7 +2,9 @@ import React from 'react'
 
 function Baseboard() {
   return (
-    <div>Baseboard</div>
+    <>
+      Baseboard
+    </>
   )
 }
 
