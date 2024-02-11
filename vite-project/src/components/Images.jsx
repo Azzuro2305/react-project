@@ -69,6 +69,7 @@ import youtubeIcon from '../assets/youtubeIcon.png';
 import images from '../assets/images.png';
 import whiteDot from '../assets/whiteDot.png';
 import blackDot from '../assets/blackDot.png';
+import bookingBg from "../assets/bookingBg.png";
 
 
 
@@ -142,7 +143,8 @@ const Images = {
     youtubeIcon,
     images,
     whiteDot,
-    blackDot
+    blackDot,
+    bookingBg,
 }
 
-export default Images
+export default Images;
