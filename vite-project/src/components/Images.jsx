@@ -32,6 +32,7 @@ import cleaning29 from '../assets/cleaning29.png';
 import dishes from '../assets/dishes.png';
 import dishWashing from '../assets/dishWashing.png';
 import downArrow from '../assets/downArrow.png';
+import downArrow1 from '../assets/downArrow1.png';
 import facebookIcon from '../assets/facebookIcon.png';
 import footerLogo from '../assets/footerLogo.png';
 import headerLogo from '../assets/headerLogo.png';
@@ -105,6 +106,7 @@ const Images = {
     dishes,
     dishWashing,
     downArrow,
+    downArrow1,
     facebookIcon,
     footerLogo,
     headerLogo,
