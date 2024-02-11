@@ -29,6 +29,7 @@ export default {
       },
       spacing: {
         'negative100px': '-100px',
+        '40px': '40px',
         '50px': '50px',
         '100px': '100px',
         '125px': '125px',
@@ -36,7 +37,8 @@ export default {
         '160px': '160px',
         '200px': '200px',
         '250px': '250px',
-        '300px': '300px'
+        '300px': '300px',
+        '440px': '440px'
       },
       borderRadius: {
         '20px': '20px',
@@ -51,9 +53,6 @@ export default {
         '20px': '20px',
         '24px': '24px',
         '50px': '50px',
-      },
-      backgroundImage: {
-        'main-visual': './images/backgroundBg.png',
       },
       height: {
         '800px': '800px',
