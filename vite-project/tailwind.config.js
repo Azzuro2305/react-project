@@ -36,7 +36,8 @@ export default {
         '160px': '160px',
         '200px': '200px',
         '250px': '250px',
-        '300px': '300px'
+        '300px': '300px',
+        '440px': '440px'
       },
       borderRadius: {
         '20px': '20px',
