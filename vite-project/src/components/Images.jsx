@@ -58,6 +58,7 @@ import searchIcon from '../assets/searchIcon.png';
 import twitterIcon from '../assets/twitterIcon.png';
 import windowCleaning from '../assets/windowCleaning.png';
 import youtubeIcon from '../assets/youtubeIcon.png';
+import images from '../assets/images.png';
 
 
 
@@ -121,6 +122,7 @@ const Images = {
     twitterIcon,
     windowCleaning,
     youtubeIcon,
+    images
 }
 
 export default Images

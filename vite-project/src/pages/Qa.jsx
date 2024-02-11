@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Contact() {
+function Qa() {
   return (
     <>
-      Contact
+      Qa
     </>
   )
 }
 
-export default Contact
+export default Qa

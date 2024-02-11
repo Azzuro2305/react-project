@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import Images from '../../components/Images'
 
 const Bathroom = () => {
@@ -53,6 +54,14 @@ const Bathroom = () => {
         </div>
 
     </div>
+=======
+
+function Bathroom() {
+  return (
+    <>
+      Bathroom
+    </>
+>>>>>>> 7fabc46bbd758306951bcd58bcbaf2f5fc244449
   )
 }
 
