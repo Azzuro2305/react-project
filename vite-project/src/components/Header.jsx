@@ -1,5 +1,5 @@
 import { React, useState } from 'react';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Images from './Images';
 import Router from '../route/Router';
 import Button from '../components/Button';
@@ -8,7 +8,6 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-    <BrowserRouter>
       <div className='flex align-middle justify-between px-20 py-5'>
           <div>
             <h1>
@@ -27,17 +26,17 @@ export function Header() {
               {
                 isOpen && (
                   <div className="absolute right-440px flex flex-col p-4 mt-40px rounded-md shadow-lg bg-white" onMouseLeave={() => setIsOpen(!isOpen)}>
-                    <Link className='link pt-2 hover:text-#27AC35' to="/general">General Cleaning</Link>
+                    <Link className='link my-4 hover:text-#27AC35' to="/general">General Cleaning</Link>
                     <hr />
-                    <Link className='link pt-2 hover:text-#27AC35' to="/kitchen" >Kitchen Cleaning</Link>
+                    <Link className='link my-4 hover:text-#27AC35' to="/kitchen" >Kitchen Cleaning</Link>
                     <hr />
-                    <Link className='link pt-2 hover:text-#27AC35' to="/bathroom" >Bathroom Cleaning</Link>
+                    <Link className='link my-4 hover:text-#27AC35' to="/bathroom" >Bathroom Cleaning</Link>
                     <hr />
-                    <Link className='link pt-2 hover:text-#27AC35' to="/appliance" >Appliance Cleaning</Link>
+                    <Link className='link my-4 hover:text-#27AC35' to="/appliance" >Appliance Cleaning</Link>
                     <hr />
-                    <Link className='link pt-2 hover:text-#27AC35' to="/baseboard" >Base Board Cleaning</Link>
+                    <Link className='link my-4 hover:text-#27AC35' to="/baseboard" >Base Board Cleaning</Link>
                     <hr />
-                    <Link className='link pt-2 hover:text-#27AC35' to="/window" >Window Cleaning</Link>
+                    <Link className='link my-4 hover:text-#27AC35' to="/window" >Window Cleaning</Link>
                 </div>
                 )
               }
@@ -48,7 +47,6 @@ export function Header() {
           </nav>
       </div>
       <Router />
-      </BrowserRouter>
     </>
   )
 }

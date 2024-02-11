@@ -1,9 +1,19 @@
-import React from 'react';
+import { React, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Button from '../components/Button';
 import MainVisual from '../components/MainVisual';
 import Images from '../components/Images';
 
+
 function Home() {
+  const condition = [Images.whiteDot, Images.blackDot];
+  const status = [false, false, true, false, false];
+  const [clickValue, setClickValue] = useState(0);
+
+  const handleClick = (e) => {
+    setClickValue(1);
+  }
+
   return (
     <>
       <MainVisual />
@@ -93,13 +103,16 @@ function Home() {
             </div>
           </div>
           <div className='text-center my-6'>
-            <Button txt={"See More"}/>
+            <Link to="/service">
+              <Button txt={"See More"}/>
+            </Link>
           </div>
         </section>
 
         <section className='mb-200px'>
           <h2 className='font-lato font-bold text-50px text-center'>TESTIMONIALS</h2>
           <div className='flex justify-center space-x-125px mt-50px'>
+
             <div className='border-2 rounded-20px border-black p-10'>
               <div>
                 <p className='w-300px mb-8'>
@@ -119,6 +132,7 @@ function Home() {
                 </div>
               </div>
             </div>
+
             <div className='border-2 rounded-20px border-black p-10'>
               <div>
                 <p className='w-300px mb-8'>
@@ -158,7 +172,25 @@ function Home() {
               </div>
             </div>
           </div>
+          <div className='flex justify-center space-x-5 mt-50px'>
+            <button onClick={handleClick}>
+              <img src={condition[clickValue]} alt="" />
+            </button>
+            <button onClick={handleClick}>
+              <img src={condition[clickValue]} alt="" />
+            </button>
+            <button onClick={handleClick}>
+              <img src={condition[clickValue]} alt="" />
+            </button>
+            <button onClick={handleClick}>
+              <img src={condition[clickValue]} alt="" />
+            </button>
+            <button onClick={handleClick}>
+              <img src={condition[clickValue]} alt="" />
+            </button>
+          </div>
         </section>
+      
       </main>
     </>
   )
