@@ -29,6 +29,7 @@ export default {
       },
       spacing: {
         'negative100px': '-100px',
+        '40px': '40px',
         '50px': '50px',
         '100px': '100px',
         '125px': '125px',
