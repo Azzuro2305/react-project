@@ -14,27 +14,31 @@ import Bathroom from '../pages/services/Bathroom';
 import Appliance from '../pages/services/Appliance';
 import Baseboard from '../pages/services/Baseboard';
 import Window from '../pages/services/Window';
+import Booking from '../pages/Booking';
 
 export function Router() {
   return (
     <>
-            <Routes>
-            {/* For main navigation */}
-            <Route path="/" element={<Home />} />
-            <Route path="/aboutus" element={<Aboutus />} />
-            <Route path='/service' element={<Service />}></Route>
-            <Route path='/qa' element={<Qa />}></Route>
-            <Route path='/faq' element={<Faq />}></Route>
-            <Route path='/contact' element={<Contact />}></Route>
-            <Route path='/signin' element={<Signin />}></Route>
-            {/* For dropdown navigation */}
-            <Route path='/general' element={<General />}></Route>
-            <Route path='/kitchen' element={<Kitchen />}></Route>
-            <Route path='/bathroom' element={<Bathroom />}></Route>
-            <Route path='/appliance' element={<Appliance />}></Route>
-            <Route path='/baseboard' element={<Baseboard />}></Route>
-            <Route path='/window' element={<Window />}></Route>
-            </Routes>
+      <Routes>
+      {/* For main navigation */}
+      <Route path="/" exact element={<Home />} />
+      <Route path="/aboutus" element={<Aboutus />} />
+      <Route path='/service' element={<Service />}></Route>
+      <Route path='/qa' element={<Qa />}></Route>
+      <Route path='/faq' element={<Faq />}></Route>
+      <Route path='/contact' element={<Contact />}></Route>
+      <Route path='/signin' element={<Signin />}></Route>
+      {/* For dropdown navigation */}
+      <Route path='/general' element={<General />}></Route>
+      <Route path='/kitchen' element={<Kitchen />}></Route>
+      <Route path='/bathroom' element={<Bathroom />}></Route>
+      <Route path='/appliance' element={<Appliance />}></Route>
+      <Route path='/baseboard' element={<Baseboard />}></Route>
+      <Route path='/window' element={<Window />}></Route>
+      {/* For buttons navigation */}
+      <Route path='/booking' element={<Booking />}></Route>
+      <Route path='/service' element={<Service />}></Route>
+      </Routes>
     </>
   )
 }

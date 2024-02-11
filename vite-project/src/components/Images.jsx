@@ -37,7 +37,14 @@ import footerLogo from '../assets/footerLogo.png';
 import headerLogo from '../assets/headerLogo.png';
 import instagramIcon from '../assets/instagramIcon.png';
 import items from '../assets/items.png';
-import landingBg from '../assets/landingBg.png';
+import landingBg1 from '../assets/landingBg1.png';
+import landingBg2 from '../assets/landingBg2.png';
+import landingBg3 from '../assets/landingBg3.png';
+import landingBg4 from '../assets/landingBg4.png';
+import landingBg5 from '../assets/landingBg5.png';
+import leftArrow from '../assets/leftArrow.png';
+import rightArrow from '../assets/rightArrow.png';
+import playSymbol from '../assets/playSymbol.png';
 import laundary from '../assets/laundary.png';
 import mailIcon from '../assets/mailIcon.png';
 import map from '../assets/map.png';
@@ -59,6 +66,8 @@ import twitterIcon from '../assets/twitterIcon.png';
 import windowCleaning from '../assets/windowCleaning.png';
 import youtubeIcon from '../assets/youtubeIcon.png';
 import images from '../assets/images.png';
+import whiteDot from '../assets/whiteDot.png';
+import blackDot from '../assets/blackDot.png';
 
 
 
@@ -101,7 +110,14 @@ const Images = {
     headerLogo,
     instagramIcon,
     items,
-    landingBg,
+    landingBg1,
+    landingBg2,
+    landingBg3,
+    landingBg4,
+    landingBg5,
+    leftArrow,
+    rightArrow,
+    playSymbol,
     laundary,
     mailIcon,
     map,
@@ -122,7 +138,9 @@ const Images = {
     twitterIcon,
     windowCleaning,
     youtubeIcon,
-    images
+    images,
+    whiteDot,
+    blackDot
 }
 
 export default Images

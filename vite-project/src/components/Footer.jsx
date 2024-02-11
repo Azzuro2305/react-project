@@ -6,11 +6,11 @@ import Images from './Images';
 function Footer() {
   return (
     <>
-      <footer className='bg-black px-100px pt-10'>
-        <div className='ml-3'>
-            <img src={Images.footerLogo} alt="" />
+      <footer className='bg-black pt-10'>
+        <div>
+            <img className='ml-240px' src={Images.footerLogo} alt="" />
         </div>
-        <div className='flex justify-center space-x-250px py-8'>
+        <div className='flex justify-center space-x-150px py-8'>
             <div className='w-200px'>
                 <p className='font-poppins text-20px text-#7D7D7D'>
                     Lorem ipsum dolor sit amet consectetur. 

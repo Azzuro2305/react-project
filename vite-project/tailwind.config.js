@@ -28,6 +28,7 @@ export default {
         '600px': '600px',
       },
       spacing: {
+        '10%': '10%',
         'negative100px': '-100px',
         '40px': '40px',
         '50px': '50px',
@@ -36,6 +37,7 @@ export default {
         '150px': '150px',
         '160px': '160px',
         '200px': '200px',
+        '240px': '240px',
         '250px': '250px',
         '300px': '300px',
         '440px': '440px'
