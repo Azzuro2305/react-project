@@ -22,7 +22,7 @@ const Baseboard = () => {
         </div> 
 
         <div  className="flex">
-            <div className=" text-center mt-200px">
+            <div className=" text-center mt-240px">
                 <h4 className="mb-6 font-bold">Cleaning light switches and doorknobs.</h4>
                 <p className="mb-6">Squirt hydrogen peroxide or rubbing alcohol on a cotton ball and wipe down the doorknobs and switch plates.
                  Allow to dry.</p>
