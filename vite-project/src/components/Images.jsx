@@ -72,7 +72,6 @@ import blackDot from '../assets/blackDot.png';
 import bookingBg from "../assets/bookingBg.png";
 
 
-
 const Images = {
     bottleDisposal,
     cleaning1,
