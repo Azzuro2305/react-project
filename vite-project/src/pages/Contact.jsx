@@ -10,8 +10,8 @@ function Contact() {
         <form className="grid grid-cols-2 w-500px col-gap-4 rounded-20px shadow-custom py-10 px-8">
           <label className="col-span-1">First Name</label>
           <label className="col-span-1">Last Name</label>
-          <input className="bg-#D9D9D9 rounded-20px col-span-1 mt-2 mr-4 px-2" type="text" name="firstName" />
-          <input className="bg-#D9D9D9 rounded-20px col-span-1 mt-2 px-2" type="text" name="lastName" />
+          <input className="bg-#D9D9D9 rounded-20px col-span-1 h-8 mt-2 mr-4 px-2" type="text" name="firstName" />
+          <input className="bg-#D9D9D9 rounded-20px col-span-1 h-8 mt-2 px-2" type="text" name="lastName" />
           <label className="col-span-1 mt-2">Email</label>
           <input className="bg-#D9D9D9 rounded-20px h-8 col-span-2 my-2 px-2" type="email" name="email" />
           <label className="col-span-1">Message</label>
