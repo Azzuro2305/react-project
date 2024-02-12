@@ -85,21 +85,21 @@ function Home() {
           <div className='flex justify-center space-x-100px mt-50px'>
             <div>
               <div>
-                <img src={Images.cleaning27} alt="" />
+                <img className='shadow-custom1' src={Images.cleaning27} alt="" />
               </div>
-              <p className='font-poppins text-center mt-5'>Lorem ipsum dolor sit amet</p>
+              <p className='font-poppins font-bold text-center text-20px mt-8'>Lorem ipsum dolor sit amet</p>
             </div>
             <div>
               <div>
-                <img src={Images.dishWashing} alt="" />
+                <img className='shadow-custom1' src={Images.dishWashing} alt="" />
               </div>
-              <p className='font-poppins text-center mt-5'>Lorem ipsum dolor sit amet</p>
+              <p className='font-poppins font-bold text-20px text-center mt-8'>Lorem ipsum dolor sit amet</p>
             </div>
             <div>
               <div>
-                <img src={Images.cleaning29} alt="" />
+                <img className='shadow-custom1' src={Images.cleaning29} alt="" />
               </div>
-              <p className='font-poppins text-center mt-5'>Lorem ipsum dolor sit amet</p>
+              <p className='font-poppins font-bold text-20px text-center mt-8'>Lorem ipsum dolor sit amet</p>
             </div>
           </div>
           <div className='text-center my-6'>

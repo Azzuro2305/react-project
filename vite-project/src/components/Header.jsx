@@ -25,7 +25,7 @@ export function Header() {
               </Link>
               {
                 isOpen && (
-                  <div className="absolute right-440px flex flex-col p-4 mt-40px rounded-md shadow-lg bg-white" onMouseLeave={() => setIsOpen(!isOpen)}>
+                  <div className="absolute right-440px flex flex-col p-4 mt-40px rounded-md shadow-lg z-10 bg-white" onMouseLeave={() => setIsOpen(!isOpen)}>
                     <Link className='link my-4 hover:text-#27AC35' to="/general">General Cleaning</Link>
                     <hr />
                     <Link className='link my-4 hover:text-#27AC35' to="/kitchen" >Kitchen Cleaning</Link>

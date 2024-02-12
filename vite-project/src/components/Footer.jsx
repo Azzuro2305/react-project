@@ -8,7 +8,7 @@ function Footer() {
     <>
       <footer className='bg-black pt-10'>
         <div>
-            <img className='ml-240px' src={Images.footerLogo} alt="" />
+            <img className='ml-140px' src={Images.footerLogo} alt="" />
         </div>
         <div className='flex justify-center space-x-150px py-8'>
             <div className='w-200px'>
