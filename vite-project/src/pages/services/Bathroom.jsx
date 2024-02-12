@@ -1,67 +1,64 @@
 import React from 'react'
-<<<<<<< HEAD
+import Title from '../../components/Title'
 import Images from '../../components/Images'
+import { Link } from 'react-router-dom'
+import Button from '../../components/Button'
 
 const Bathroom = () => {
   return (
     <div>
-        <h3 className="text-2xl text-center font-medium">BATHROOM CLEANING</h3>
+      <Title/>
+         <h3 className="text-3xl text-center font-bold mb-10 mt-10">BATHROOM CLEANING</h3>
+         <div className="flex content-center justify-center gap-10">
+          <div>
+              <div>
+              <img src={Images.cleaning11} alt="" className="mb-6" />
+              <div className="mb-8  text-center h-28">
+                <p className="mb-6">Scrubbing and sanitizing bathroom fixtures.</p>
+                <Link to="/Booking"><Button txt={"Book Now"}/></Link>
+              </div>
+              </div>
+          </div>
 
-        {/* <div className="flex space-x-4 left-64 justify-between"> */}
-        <div className=" flex gird grid-cols-4 gap-40 items-stretch content-center ...">
-            <div className="">
-            <img src={Images.cleaning11} alt=""  />
-                <div>
-                    <p>Scrubbing and sanitizing bathroom fixtures.
-                    </p>
-                    <button>Book Now</button>
-                </div>
-            </div>
+          <div>
+          <div>
+              <div>
+              <img src={Images.cleaning12} alt="" className="mb-6" />
+              <div className="mb-8  text-center h-28">
+                <p className="mb-6">Cleaning mirrors.</p>
+                <Link to="/Booking"><Button txt={"Book Now"}/></Link>
+              </div>
+              </div>
+          </div>
+          </div>
 
-            <div className="">
-            <img src={Images.cleaning12} alt=""  />
-                <div >
-                    <p>Dusting of furniture,shelves, and 
-                        surfaces.
-                    </p>
-                    <button>Book Now</button>
-                </div>
-            </div>
+          <div>
+          <div>
+              <div>
+              <img src={Images.cleaning13} alt="" className="mb-6" />
+              <div className="mb-8  text-center h-28">
+                <p className="mb-6">Wiping down countertops.</p>
+                <Link to="/Booking"><Button txt={"Book Now"}/></Link>
+              </div>
+              </div>
+          </div>
+          </div>
 
-            <div className="">
-            <img src={Images.cleaning13} alt=""  />
-                <div>
-                    <p>Dusting of furniture,shelves, and 
-                        surfaces.
-                    </p>
-                    <button>Book Now</button>
-                </div>
-            </div>
-       
+          <div>
+          <div>
+              <div>
+              <img src={Images.cleaning14} alt="" className="mb-6" />
+              <div className="mb-8  text-center h-28">
+                <p className="mb-6">Mopping floors.</p>
+                <Link to="/Booking"><Button txt={"Book Now"}/></Link>
+              </div>
+              </div>
+          </div>
+          </div>
+            
 
-        <div className="">
-            <img src={Images.cleaning14} alt=""  />
-                <div>
-                    <p>Dusting of furniture,shelves, and 
-                        surfaces.
-                    </p>
-                    <button className=" flex justify-center ">Book Now</button>
-                </div>
-        </div>
-
-
-
-        </div>
-
+         </div>
     </div>
-=======
-
-function Bathroom() {
-  return (
-    <>
-      Bathroom
-    </>
->>>>>>> 7fabc46bbd758306951bcd58bcbaf2f5fc244449
   )
 }
 
