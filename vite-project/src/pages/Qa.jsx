@@ -6,7 +6,7 @@ function Qa() {
     <>
     <div className='bg-#35D145 text-center py-40px font-lato text-5xl text-white uppercase font-bold'>Quality Assurance</div>
 
-    <div className='bg-green-300'>
+    <div className='bg-green-200'>
       <img src={Images.room3} alt="QA foto" />  
       <div className="container m-auto py-16">
         <h3 className='text-#27AC35 font-lato font-extrabold text-3xl mb-10'>How we ensure quality</h3>
