@@ -6,13 +6,13 @@ import Button from '../components/Button';
 
 const Aboutus = () => {
     const profiles = [
-        // {
-        //     id: 1,
-        //     name: "Jennifer",
-        //     position: "Founder & CEO",
-        //     myImage: Images.profile2,
-        //     text: "Ms. Jennifer is the young entrepreneur with more than 11 years of business experiences in facility management. Her Management, Strategic Planning,Leadership and Team Control is the major key of the Clean Pro’s Success Stories."
-        // },   
+        {
+            id: 1,
+            name: "Jennifer",
+            position: "Founder & CEO",
+            myImage: Images.profile2,
+            text: "Ms. Jennifer is the young entrepreneur with more than 11 years of business experiences in facility management. Her Management, Strategic Planning,Leadership and Team Control is the major key of the Clean Pro’s Success Stories."
+        },   
         {
           id: 3,
             name: "Andrew",
@@ -79,19 +79,21 @@ const Aboutus = () => {
                 <Button txt="Read More"/>
             </section>
 
-            <section className='bg-green-200 text-center py-14'>
-                <h2 className='uppercase text-5xl font-bold mb-20'>Our Management Team</h2>
+            <section className='bg-green-200 text-center py-16'>
+                <h2 className='uppercase text-5xl font-bold mb-16'>Our Management Team</h2>
                 <div className='profiles container m-auto'>
-                    <div className='flex justify-center mb-1'>
+                    <div className='flex justify-center mb-8'>
                         {  
-                            <Profile key="1" img={Images.profile2} name="Jennifer" rank="Founder & CEO" txt= "Ms. Jennifer is the young entrepreneur with more than 11 years of business experiences in facility management. Her Management, Strategic Planning,Leadership and Team Control is the major key of the Clean Pro’s Success Stories." />
+                            profiles.filter((profile) => profile.id === 1).map(
+                                (profile) =>  <Profile key={profile.id} img={profile.myImage} name={profile.name} rank={profile.position} txt={profile.text} />
+                            )    
                         }
                     </div>
                     <div className='flex flex-wrap justify-between'>
                         {
-                            profiles.map((profile)=>
-                            <Profile key={profile.id} img={profile.myImage} name={profile.name} rank={profile.position} txt={profile.text} />
-                            )
+                            profiles.filter((profile) => profile.id !== 1).map(
+                                (profile) =>  <Profile key={profile.id} img={profile.myImage} name={profile.name} rank={profile.position} txt={profile.text} />
+                            ) 
                         }
                     </div>
                 </div>
