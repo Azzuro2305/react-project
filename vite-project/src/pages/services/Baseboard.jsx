@@ -7,7 +7,7 @@ import Button from '../../components/Button'
 const Baseboard = () => {
   return (
     <div>
-        <Title/>
+        <Title title = "our service"/>
          <h3  className="text-3xl text-center font-bold mb-10 mt-10">BASEBOARD AND TRIM CLEANING</h3>  
          <div  className="flex content-center justify-center text-center">
             <div className="p-16 ml-28">

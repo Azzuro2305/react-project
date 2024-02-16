@@ -6,7 +6,7 @@ import Button from '../../components/Button'
 const Window = () => {
   return (
     <div>
-      <Title />
+       <Title title="our service" />
       <h3 className="text-3xl text-center font-bold mb-10 mt-10">WINDOW CLEANING</h3>
       <div className="flex">
         <div className="mb-11">
