@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './Button'
 import { useNavigate } from 'react-router-dom'
 
-const Card = ({id,img, title, text,path, buttonText}) => {
+const Card1 = ({id,img, text,path, buttonText}) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -10,17 +10,16 @@ const Card = ({id,img, title, text,path, buttonText}) => {
   }
   return (
     <div key={id}>
-        <div className="bg-green-200">
-            <img src={img} alt="" className="mb-6"/>
-            <div className="h-44 text-center bg-# ">
-              <h3 className="mb-4">{title} </h3>
+        <div>
+        <img src={img} alt="" className="mb-6"/>
+            <div className="text-center  ">
               <p className="mb-6">{text}</p>
               <Button txt={buttonText} onClick={handleClick}/>
             </div>
-        </div>
+        </div> 
         
     </div>
   )
 }
 
-export default Card
+export default Card1

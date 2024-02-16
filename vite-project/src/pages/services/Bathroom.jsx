@@ -1,63 +1,54 @@
 import React from 'react'
 import Title from '../../components/Title'
 import Images from '../../components/Images'
-import { Link } from 'react-router-dom'
-import Button from '../../components/Button'
+import Card1 from '../../components/Card1'
 
 const Bathroom = () => {
+  const bathroom1 = [
+    {
+      id: 1,
+      path: '/booking',
+      img: Images.cleaning11,
+      text: "Scrubbing and sanitizing bathroom fixtures.",
+      buttonText: "Book Now"
+    },
+    {
+      id: 2,
+      path: '/booking',
+      img: Images.cleaning12,
+      text: "Cleaning of mirrosrs",
+      buttonText: "Book Now"
+    },
+    {
+      id: 3,
+      path: '/booking',
+      img: Images.cleaning13,
+      text: "Wiping down countertops.",
+      buttonText: "Book Now"
+    },
+    {
+      id: 4,
+      path: '/booking',
+      img: Images.cleaning14,
+      text: "Mopping floors.",
+      buttonText: "Book Now"
+    },
+  ]
   return (
     <div>
-      <Title/>
-         <h3 className="text-3xl text-center font-bold mb-10 mt-10">BATHROOM CLEANING</h3>
-         <div className="flex content-center justify-center gap-10">
-          <div>
-              <div>
-              <img src={Images.cleaning11} alt="" className="mb-6" />
-              <div className="mb-8  text-center h-28">
-                <p className="mb-6">Scrubbing and sanitizing bathroom fixtures.</p>
-                <Link to="/Booking"><Button txt={"Book Now"}/></Link>
-              </div>
-              </div>
-          </div>
+      <Title title="our service" />
+      <h3 className="text-3xl text-center font-bold mb-10 mt-10">BATHROOM CLEANING</h3>
+      <div className="flex content-center justify-center gap-10 mb-12">
+        {
 
-          <div>
-          <div>
-              <div>
-              <img src={Images.cleaning12} alt="" className="mb-6" />
-              <div className="mb-8  text-center h-28">
-                <p className="mb-6">Cleaning mirrors.</p>
-                <Link to="/Booking"><Button txt={"Book Now"}/></Link>
-              </div>
-              </div>
-          </div>
-          </div>
+          bathroom1.map((item) =>
 
-          <div>
-          <div>
-              <div>
-              <img src={Images.cleaning13} alt="" className="mb-6" />
-              <div className="mb-8  text-center h-28">
-                <p className="mb-6">Wiping down countertops.</p>
-                <Link to="/Booking"><Button txt={"Book Now"}/></Link>
-              </div>
-              </div>
-          </div>
-          </div>
+            <Card1 id={item.id} img={item.img} text={item.text} buttonText={item.buttonText} path={item.path} />
+          )
+        }
 
-          <div>
-          <div>
-              <div>
-              <img src={Images.cleaning14} alt="" className="mb-6" />
-              <div className="mb-8  text-center h-28">
-                <p className="mb-6">Mopping floors.</p>
-                <Link to="/Booking"><Button txt={"Book Now"}/></Link>
-              </div>
-              </div>
-          </div>
-          </div>
-            
 
-         </div>
+      </div>
     </div>
   )
 }
